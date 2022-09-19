@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strepy - Copy paste string
+ * _strcpy - Copy paste string
  * @dest: destination
  * @src: source
  *
