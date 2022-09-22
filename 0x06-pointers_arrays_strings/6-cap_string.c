@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * cap_string - function that capitalize first character of a word
- * @str: string to capatalize
- * return: returns the capitalized string
+ * cap_string - Capitalizes each word in the string
+ *
+ * @str: String value
+ *
+ * Return: Syring with capitalize words
  */
 
 char *cap_string(char *str)
@@ -31,5 +33,3 @@ char *cap_string(char *str)
 	}
 	return (str);
 }
-
-		
