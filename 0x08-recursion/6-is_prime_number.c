@@ -3,27 +3,27 @@
 /**
  * helperFunction - returns 0 or 1.
  * @num: number being checked.
- * @l: possible factor of the number.
+ * @i: possible factor of the number.
  *
  * Return: 0 if not prime, 1 of prime.
  */
 
-int helperFunction(int num, int l)
+int helperFunction(int num, int i)
 {
-	if (l < num)
+	if (i < num)
 	{
-		if (num % l == 0)
+		if (num % i == 0)
 		{
 			return (0);
 		}
 		else
 		{
-			return (helperFunction(num, l + 1));
+			return (helperFunction(num, i + 1));
 		}
 	}
 	else
 	{
-		return (l);
+		return (1);
 	}
 }
 
