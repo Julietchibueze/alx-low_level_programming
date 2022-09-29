@@ -27,7 +27,7 @@ int helperFunction(int num, int pSqrt)
  * _sqrt_recursion - returns the natural square root of a number.
  * @n: number to find sqrt of.
  *
- * return: squareroot of n.
+ * Return: squareroot of n.
  * -1 if n does not have a natural sqrt.
  */
 
@@ -37,4 +37,4 @@ int _sqrt_recursion(int n)
 		return (-1);
 	else
 		return (helperFunction(n, 0));
-}
+i}
